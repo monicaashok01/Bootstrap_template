@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="navbs.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-transperant ">
+    <div class="container">
+      <a class="navbar-brand " href="#">
+        <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 90 52" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 90 52" height="52" width="90" fill="yellow" data-type="shape" role="img" aria-label="Homepage">
+          <g>
+            <path
+              d="M84.536 5.949C80.892 1.983 75.766 0 69.153 0c-3.55 0-6.795.869-9.734 2.608-2.939 1.74-5.358 3.952-7.255 6.638-1.715-2.93-4.01-5.203-6.889-6.822C42.397.808 39.091 0 35.357 0c-3.428 0-6.414.671-8.953 2.014-2.542 1.342-4.547 3.112-6.016 5.31V.363H0V52h20.388V25.408c0-3.47 2.248-6.408 5.367-7.468v-6.378c0-.603.49-1.093 1.096-1.093h2.49c.605 0 1.096.49 1.096 1.093v.258h3.995c.956 0 1.733 1.133 1.793 2.503v.06c0 .179 0 .357-.06.536v.06c-.179 1.132-.897 1.967-1.734 1.967h-3.994v.865c3.337.93 5.788 3.974 5.788 7.597V52h18.668V25.408c0-3.47 2.247-6.408 5.367-7.468v-6.378c0-.603.491-1.093 1.096-1.093h2.49c.605 0 1.096.49 1.096 1.093v.258h3.994c.957 0 1.734 1.133 1.794 2.503v.06c0 .179 0 .357-.06.536v.06c-.18 1.132-.897 1.967-1.734 1.967h-3.994v.865c3.336.93 5.788 3.974 5.788 7.597V52H90V22.063c0-6.774-1.822-12.145-5.464-16.114">
+            </path>
+          </g>
+        </svg>
+
+      </a>
+      <div class="h4 text-light">Moray Dive School</div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 me-5 mb-lg-0 ">
+          <li class="nav-item ">
+            <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#our course">Our Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+              </svg>
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#">Log In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--nav end-->
+  <div class="container sec1  ps-5 d-flex flex-column justify-content-center align-items-start gap-3 ">
+    <h1 class="display-1 fw-bold text-warning ps-5 ">Moray <br>
+      Dive School</h1>
+    <p class="fw-bold h2 text-light  ps-5">Plunge into the Adventure of a Lifetime</p>
+    <button type="button" class="btn btn-light rounded rounded-pill px-4 py-4 px-5 ms-5 ">Book Now </button>
+  </div>
+
+  <!--sec1 end-->
+  <div class="container-fluid sec2 d-flex flex-column justify-content-center align-items-center gap-5  ">
+
+    <h1 data-aos="fade-up"
+     data-aos-duration="3000" class="display fw-bold text-warning " id="about">About Us </h1>
+    <p  data-aos="fade-up"
+     data-aos-duration="3000" class="lead text-light text-center ">I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+      <br> Just click “Edit Text” or double click me to add your own content and <br> make changes to the font. Feel
+      free to drag and drop me anywhere you <br> like on your page. I’m a great place for you to tell a story and let
+      your <br> users know a little more about you</p>
+      
+    <button data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" type="button" class="btn btn-light rounded-pill">Read More</button>
+    
+  </div>
+
+
+  <!--sec2 end-->
+
+  <div class="container-fluid sec3" >
+    <h1 class="text-light text-bold text-center" id="our course">Our Courses</h1>
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-12  col-md-6 col-lg-4">
+          <div class="card overflow-hidden ">
+
+            <div class="card-body card1 text-light d-flex flex-column justify-content-center align-items-start">
+              <h3  data-aos="fade-up"
+     data-aos-duration="3000" class="card-title text-bold mb-5 mt-5">Intro to Scuba</h3>
+              <p  data-aos="fade-up"
+     data-aos-duration="3000" class="card-text lead">I'm a paragraph. Click here to <br> add your own text and edit me. <br> Let your
+                users get to know you.</p>
+              <a data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" href="#" class="btn btn-light rounded-pill mt-5">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card  overflow-hidden ">
+
+            <div class="card-body card2 text-light d-flex flex-column justify-content-center align-items-start">
+              <h3  data-aos="fade-up"
+     data-aos-duration="3000" class="card-title text-bold mb-5 mt-5 ">Intro to Scuba</h3>
+              <p  data-aos="fade-up"
+     data-aos-duration="3000" class="card-text lead">I'm a paragraph. Click here to <br> add your own text and edit me. <br> Let your
+                users get to know you.</p>
+              <a data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" href="#" class="btn btn-light rounded-pill mt-5">Book Now</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card overflow-hidden  ">
+
+            <div class="card-body card3 text-light d-flex flex-column justify-content-center align-items-start">
+              <h3  data-aos="fade-up"
+     data-aos-duration="3000" class="card-title text-bold mb-5 mt-5">Intro to Scuba</h3>
+              <p  data-aos="fade-up"
+     data-aos-duration="3000" class="card-text lead">I'm a paragraph. Click here to <br> add your own text and edit me. <br> Let your
+                users get to know you.</p>
+              <a data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" href="#" class="btn btn-light rounded-pill mt-5">Book Now</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--sec3 end-->
+
+  <div class="container-fluid sec4 ">
+    <div id="carouselExample" class="carousel slide h-100 d-flex justify-content-center align-items-center text-center">
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <p class="lead fw-bold text-primary ">
+            “I'm a testimonial. Click to edit me and add text that says <br> something nice about you and your services.
+            <br> Let your customers review you and tell their friends how great you are.”</p>
+
+        </div>
+        <div class="carousel-item">
+          <p class="lead fw-bold text-primary">
+            “I'm a testimonial. Click to edit me and add text that says <br> something nice about you and your services.
+            <br> Let your customers review you and tell their friends how great you are.”</p>
+
+        </div>
+        <div class="carousel-item">
+          <p class="lead fw-bold text-primary ">
+            “I'm a testimonial. Click to edit me and add text that says <br> something nice about you and your services.
+            <br> Let your customers review you and tell their friends how great you are.”</p>
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!--sec4 end-->
+
+  <div class="container-fluid sec5 d-flex flex-column align-items-center justify-content-center">
+    <h1 class="display-4 fw-bold text-warning text-center">Step Up, Help Us Clean <br>
+      The Oceans</h1>
+    <button type="button" class="btn btn-light rounded-pill mt-5">Donate Now</button>
+
+  </div>
+
+  <!--sec5 end-->
+
+
+  <div class="container-fluid sec6 d-flex flex-column justify-content-evenly align-items-center ">
+    <h1 class="fw-bold text-warning text-center pt-5 ">Certified By</h1>
+    <div class="container  h-50 ">
+      <div class="row justify-content-center g-3 ">
+        <div class="col-8 col-md-4  text-center  ">
+          <img class="w-100"
+            src=" https://static.wixstatic.com/media/fc7570_f6c7cf2034be45e5bb5d882026a1c621~mv2.png/v1/fill/w_260,h_105,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fc7570_f6c7cf2034be45e5bb5d882026a1c621~mv2.png"
+            alt="">
+
+        </div>
+        <div class="col-8 col-md-4   text-center">
+          <img class="w-100"
+            src=" https://static.wixstatic.com/media/fc7570_afb9be5485a147a483e41b9dc1834a56~mv2.png/v1/fill/w_260,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fc7570_afb9be5485a147a483e41b9dc1834a56~mv2.png"
+            alt="">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--sec6 end-->
+  <div class="container-fluid bg-secondary map-part px-0">
+    <iframe src="https://www.google.com/maps/embed/" class="w-100 h-100" frameborder="0"></iframe>
+
+  </div>
+
+
+  <!--sec7 start-->
+  <div class="container-fluid sec7 py-4 ">
+    <div class="container h-100 ">
+      <div class="row ">
+        <div class="col-12 col-md-6 pt-5">
+          <h1 class="fw-bold text-primary">Contact Us</h1>
+          <p class="lead pt-5">500 Terry Francine Street San Francisco, CA 94158 <br>
+            <br>
+
+            123-456-7890 <br>
+            <br>
+
+            123-456-7890
+          </p>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook "
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter m-4"
+            viewBox="0 0 16 16">
+            <path
+              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+          </svg>
+
+        </div>
+        <div class="col-12 col-md-6 ">
+          <div class="row g-3 ">
+            <div class="col ">
+              <label class="form-label text-dark">First Name</label>
+              <input type=""
+                class="form-control bg-transperant border-top-0 border-start-0 border-end-0 border-bottom-2 rounded-0  border-dark "
+                placeholder="" aria-label="">
+
+            </div>
+            <div class="col">
+              <label class="form-label text-dark">Last Name</label>
+              <input type=""
+                class="form-control bg-transperant border-top-0 border-start-0 border-end-0 border-bottom-2 rounded-0  border-dark "
+                placeholder="" aria-label="">
+            </div>
+          </div>
+          <div class="row g-3 p-5">
+            <div class="col">
+              <label class="form-label text-dark">Email</label>
+              <input type=""
+                class="form-control bg-transperant border-top-0 border-start-0 border-end-0 border-bottom-2 rounded-0  border-dark "
+                placeholder="" aria-label="">
+            </div>
+            <div class="col">
+              <label class="form-label text-dark"> Phone</label>
+              <input type=""
+                class="form-control bg-transperant border-top-0 border-start-0 border-end-0 border-bottom-2 rounded-0  border-dark "
+                placeholder="" aria-label="">
+            </div>
+          </div>
+          <div class="form-floating p-5">Message
+            <textarea
+              class="form-control bg-transperant border-top-0 border-start-0 border-end-0 border-bottom-2 rounded-0  border-dark  "
+              placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2"></label>
+          </div>
+          <button class="btn text-light w-0 rounded-0 btn-lg ms-5 " type="button">Submit</button>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--sec7 end-->
+
+  <div class="container-fluid sec8 py-4">
+    <div class="container  h-100">
+      <div class="row justify-content-center  ">
+        <div class="col-12 col-md-6 col-lg-4   d-flex flex-column  p-5 ">
+          <h2 class="fw-bold text-light ps-0">
+            Download Our Mobile
+            <br> App
+          </h2>
+          <p class="text-light ">Download the Spaces by Wix app and join Moray Dive<br> School to easily stay updated on
+            the go</p>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4   d-flex align-items-center ">
+          <div class="container ">
+            <div class="row">
+              <div class="col-4 my-5">
+                <div class="dropdown text-light">Country
+                  <button
+                    class="btn btn-none dropdown-toggle bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-2 rounded-0  border-light  pb-3 ps-5 text-light "
+                    type="button" data-bs-toggle="dropdown" aria-expanded="false ">
+                    +91
+                  </button>
+                  <ul class="dropdown-menu ">
+                    <li><button class="dropdown-item" type="button">+45</button></li>
+                    <li><button class="dropdown-item" type="button">+23 </button></li>
+                    <li><button class="dropdown-item" type="button">+499</button></li>
+                  </ul>
+                </div>
+
+              </div>
+              <div class="col-8 my-5">
+                <label class="form-label text-light">Phone Number</label>
+                <input type=""
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-2 rounded-0  border-light text-light"
+                  placeholder="" aria-label="">
+              </div>
+              <div class="row py-0 ">
+
+                <button type="button"
+                  class="btn btn-light rounded-pill fw-bold mt-3 mb-3 w-25 btn-sm ms-2 ">Send</button>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4  d-flex align-items-center">
+          <div class="container  pt-5 px-3">
+            <div class="row py-3">
+              <div class="col ps-5 rounded">
+                <img
+                  src="https://static.wixstatic.com/media/2feeec_9502e1d7d07e4bdf97f5fe0fa4d9309f~mv2.png/v1/fill/w_92,h_92,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/qrCode.png"
+                  alt="">
+              </div>
+              <div class="col pe-5">
+                <img class="mb-1"
+                  src="https://static.wixstatic.com/media/3e41b8_c7dfb607579c44039e9f8c2610f15d3d~mv2.png/v1/fill/w_144,h_43,al_c,q_85,enc_avif,quality_auto/Google.png"
+                  alt="">
+                <img
+                  src="https://static.wixstatic.com/media/3e41b8_a0bf062897f64090b91f438ce6bf69ba~mv2.png/v1/fill/w_144,h_43,al_c,q_85,enc_avif,quality_auto/apple.png"
+                  alt="">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 my-4 py-4">
+        <a href="#" class="text-light">Accessibility</a>
+        <a href="#" class="text-light">Terms & Conditions</a>
+        <a href="#" class="text-light">Privacy Policy</a>
+        <a href="#" class="text-light">Shipping Policy </a>
+        <a href="#" class="text-light">Refund Policy</a>
+      </div>
+
+      <div class="container h-25 d-flex justify-content-center align-items-end">
+        <p class="text-light">© 2035 by Moray Dive School. Powered and secured by <a href="#" class="text-light">monica</a>
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

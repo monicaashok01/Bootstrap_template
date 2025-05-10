@@ -1,0 +1,114 @@
+.active,.nav-link:hover{
+    color: yellow !important;
+}
+body{
+    background-image: url("https://static.wixstatic.com/media/fc7570_416a56430a9e4e2abd030cd2656120ef~mv2_d_6506_3420_s_4_2.jpg/v1/fill/w_1417,h_1260,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fc7570_416a56430a9e4e2abd030cd2656120ef~mv2_d_6506_3420_s_4_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.sec1{
+    min-height: 60vh;
+    
+   
+  
+    
+    
+}
+
+.navbar{
+    min-height: 20vh;
+}
+.nav-link{
+    text-align: center;
+}
+
+.sec2{
+    min-height: 80vh;
+    background-image: url("https://static.wixstatic.com/media/fc7570_4b14e3f7cbe24146aa7f74162ac8a04a~mv2_d_4839_2502_s_4_2.jpg/v1/fill/w_1423,h_675,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fc7570_4b14e3f7cbe24146aa7f74162ac8a04a~mv2_d_4839_2502_s_4_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.sec3{
+    min-height: 100vh;
+    background-color: #152040;
+}
+
+.card1{
+    background-image: url("https://static.wixstatic.com/media/fc7570_3d943b929f324e8bb9b4925934bf744f~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_398,h_668,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fc7570_3d943b929f324e8bb9b4925934bf744f~mv2_d_5760_3840_s_4_2.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.card2{
+    background-image: url("https://static.wixstatic.com/media/fc7570_043acdee000b4850a234eaf94373483a~mv2_d_3920_3346_s_4_2.jpg/v1/fill/w_399,h_668,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fc7570_043acdee000b4850a234eaf94373483a~mv2_d_3920_3346_s_4_2.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card3{
+    background-image: url("https://static.wixstatic.com/media/fc7570_45d9b8902e024708b38cba80b28cabab~mv2_d_2848_3769_s_4_2.jpg/v1/fill/w_399,h_668,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/fc7570_45d9b8902e024708b38cba80b28cabab~mv2_d_2848_3769_s_4_2.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec4{
+    background-color: #c5c7cf;
+    height: 60vh;
+}
+.sec5{
+    height: 100vh;
+    background-image: url("https://static.wixstatic.com/media/fc7570_929a2fe5b7754396b385f6219e720299~mv2_d_3982_2655_s_4_2.jpg/v1/fill/w_1417,h_880,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fc7570_929a2fe5b7754396b385f6219e720299~mv2_d_3982_2655_s_4_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sec6{
+    height: 80vh;
+    background-color: #152040;
+}
+.map-part{
+    height: 70vh;
+}
+
+.sec7{
+   min-height: 85vh;
+    background-color: #ffffff;
+}
+.sec7 .btn{
+    background-color:#152040 ;
+    width: 85%;
+}
+.sec7 .btn:hover{
+    background-color: none;
+
+}
+.sec7 h1{
+    color: #152040 !important;
+}
+
+.sec8{
+    background-color:#152040 ;
+    min-height: 70vh;
+}
+/* .sec8 .dropdown{
+    display: inline;
+
+} */
+ .sec8 .btn{
+    color: #152040;
+ }
